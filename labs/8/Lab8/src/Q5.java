@@ -17,6 +17,10 @@ public class Q5 {
 		}
 		System.out.println();
 	}
+
+	// JA: It is easier to recreate the arrraylist without the duplicates
+	// JA: This logic missed removing duplicates when they appear more
+	// JA: thank twice.
 	public static void removeDuplicate(ArrayList<Integer> list) {
 		for (int i = 0; i < list.size() - 1; i++) {
 			for (int j = i + 1; j < list.size(); j++) {
